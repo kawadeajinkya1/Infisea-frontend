@@ -1,0 +1,236 @@
+/*
+
+.formHold {
+    width: 50rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   
+    background-color: whitesmoke;
+
+}
+
+
+
+.container{
+    width: 50rem;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    padding: 2rem;
+    gap: 7rem;
+    margin-top: 1rem;
+    background-color: white;
+     overflow-x:hidden;
+}
+
+.txtL {
+    font-size: 1.2rem;
+    color: green;
+}
+
+.head {
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 0%;
+}
+
+.stepDiv {
+    width: 100%;
+   overflow-x:hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+
+
+}
+
+.stepLeft {
+    width: 40vw;
+}
+
+.stepRight {
+    width: 40vw;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn {
+    width: 100%;
+    margin-bottom: 3rem;
+    background: rgb(25, 188, 95);
+    border: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container input,
+select {
+    padding: .2rem;
+}
+
+.formHold {
+    width: 100%;
+
+    border: 1px solid rgb(232, 231, 231);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input {
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+    width: 18rem;
+    height: 2.5rem;
+    border: none;
+}
+
+select {
+    width: 18rem;
+    height: 2.5rem;
+    border: none;
+}
+
+textarea {
+    width: 28rem;
+    height: 9rem;
+}
+
+.stepHold {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.btnStep {
+    width: 9rem;
+    height: 2rem;
+    background-color: rgba(48, 255, 6, 0.272);
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+}
+
+.btnStep:hover {
+    background-color: rgba(48, 255, 6, 0.637);
+}
+
+.firstClass {
+    border: 1px solid gray;
+    width: 9rem;
+    text-align: center;
+    height: 2.9rem;
+    border-radius: 3rem;
+    padding-top: 4px;
+    margin-right: 0.4rem;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.secondClass {
+    border: 1px solid gray;
+    width: 9rem;
+    text-align: center;
+    height: 2.9rem;
+    border-radius: 3rem;
+    padding-top: 4px;
+    margin-right: 0.4rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.form_container {
+    width: 60vw;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: white;
+}
+
+.stepDiv input[type=number] {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.stepDiv input[type=text] {
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+.stepDiv input[type=file] {
+    border: none;
+
+}
+
+.stepDiv .autofill {
+    background-color: rgb(230, 226, 226);
+    padding: 1rem;
+}
+
+.stepDiv .autofill p {
+    font-size: .9rem;
+}
+
+.stepDiv input,
+textarea {
+    width: 19rem;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.stepDiv select {
+    width: 19rem;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.required {
+    color: red;
+    font-size: .8rem;
+}
+
+
+.stepyyy{
+  display: flex;
+  
+    justify-content:space-evenly;
+    align-items: center;
+   
+    
+    
+}
+
+.btndd{
+    display: flex;
+
+}
+
+*/

@@ -1,0 +1,271 @@
+.navbar{
+  position:fixed;
+  width:100%;
+  height:6rem;
+  background:#f1faff;
+  box-shadow: 0.2px 0.2px 2px 0.1px gray;
+  display:flex;
+  justify-content: space-around;
+    font-family: "Lato";
+  z-index: 999;
+  margin:0;
+  padding:0;
+
+  }
+  
+  .left{
+      display: flex;
+        font-family: "Lato";
+      justify-content: center;
+      position:relative;
+      width:100%;
+      color: black;
+      border:none;
+  }
+
+  .right{
+    border:none;
+  }
+
+  
+
+
+  .hammer{
+
+  font-family: "Lato";
+      position:relative;
+      display: flex;
+      background: transparent;
+      left:1rem;
+      top:0.7rem;
+      border: none;
+    
+  }
+
+  
+.icon_bar{
+    font-family: "Lato";
+  font-size: 1rem;
+  color: black;
+  left: 0.3;
+  height:1.5rem;
+  width:1.5rem;
+  }
+  
+  
+
+  
+
+
+  
+  .burgerdata{
+      position: absolute;
+      display: flex;
+        font-family: "Lato";
+      flex-direction: column;
+      top:2.8rem;
+      z-index: 2;
+      left: 0.2rem;
+      border-radius: 1.8rem;
+      width: 20%;
+      height: 90vh;
+      background-color:#f1faff;;
+      transition: .4s all ease-in-out; 
+      overflow: hidden;
+      box-shadow: 0.2px 0.2px 2px 0.1px gray;
+     
+  }
+
+  .burgerdata2{
+      position: absolute;
+        font-family: "Lato";
+      display: block;
+      flex-direction: column;
+      text-decoration: none;
+      top: 2.8rem;
+      left:0.2rem ;
+      transition:.4s all ease-out;
+      width: 0%;
+      height: 90vh;
+      background-color:rgb(255, 255, 255);
+      overflow: hidden;
+  
+  }
+
+  .burgerdata .burgerItem{
+  list-style: none;
+  align-items: left;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid white;
+  color: black;
+   font-family: "Lato";
+    font-size: 1rem;
+    color:red;
+    font-weight: bold;
+  text-decoration: none;
+}
+.burgerdata2 .burgerItem{
+      font-family: "Lato";
+    font-size: 1rem;
+     font-weight: bold;
+    color:red;
+  list-style: none;
+  align-items: left;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid white;
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.burgerLink{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+.burgerdata2 .burgerItems{
+  list-style: none;
+  font-family: "Lato";
+  font-size: 1rem;
+  color:red;
+  font-weight: 700;
+  padding: 0rem 0rem;
+  border-bottom: 1px solid white;
+  color: black;
+}
+
+.dkd{
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Lato";
+  color:red;
+  color: black;
+  padding-left: 2rem;
+  background: transparent;
+  border: none;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  flex-direction: none;
+}
+
+.name{
+    font-family: "Lato";
+  font-size: 2rem;
+  position: relative;
+  top:-1.6rem
+}
+
+
+
+
+
+
+@media screen and (max-width:768px)
+{
+  
+ 
+  .icon-bars {
+      font-size:2rem;
+      color: white;
+      background-color:white;
+  }
+  .burgerdata{
+      z-index: 999;
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      top:0.5rem;
+      z-index: 2;
+      right:0;
+      border-radius: 1.8rem;
+      width: 75%;
+      height: auto;
+      background-color:rgb(28, 24, 24);
+      transition:  .4s all ease-in-out; 
+ overflow: visible;
+      color:#00ffcc;
+     
+  }
+
+  .burgerdata2{
+      position: fixed;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      top: 2.5rem;
+      right: 0;
+      transition:.1s all ease-out;
+      width: 0%;
+      height: auto;
+      overflow: visible;
+      background-color:rgb(28, 24, 24);
+      text-align: center;
+     
+  
+  }
+
+  .burgerdata .burgerItem{
+  list-style: none;
+  padding: 1rem 3rem;
+  border-bottom: 1px solid white;
+  color: #ffffcc;
+  text-align: center;
+}
+.burgerdata2 .burgerItem{
+  list-style: none;
+  padding: 1rem 3rem;
+  border-bottom: 1px solid white;
+  color: #ffffcc;
+  text-align: center;
+}
+.burgerLink{
+  text-decoration: none;
+  background-color: transparent;
+  color: #ffffcc;
+  text-align: center;
+}
+
+
+
+
+.burgerdata .burgerItems{
+  list-style: none;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid white;
+  color: white;
+
+  list-style: none;
+}
+
+
+}
+
+.cart{
+  position:absolute;
+  height:2rem;
+  width:2rem;
+  right:0.5rem;
+  margin-top: 0.2rem;;
+}
+
+.cart2{
+  position:absolute;
+  height:2rem;
+  width:2rem;
+  right:3rem;
+
+  margin-top: 0.2rem;;
+}
+
+
+.carttt{
+  display: flex;
+  justify-content: start;
+
+  
+}

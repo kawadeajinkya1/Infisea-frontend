@@ -1,0 +1,261 @@
+.cont
+{
+
+  display:flex;
+  width:100%;
+  margin-top:1rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.fb{
+  
+  position: relative;
+  width:70%;
+  box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+  border-right:1px solid #ccc;
+  padding-bottom: 1rem;
+}
+ 
+.sb{
+  right: 3%;
+margin-top:-2rem;
+width:25%;
+position: fixed;
+ display: flex; 
+ flex-direction: column;
+align-items: center; 
+justify-content: center;
+ padding: 10px;
+ text-align: center; 
+border-radius: 5px; 
+box-sizing: border-box;
+
+}
+
+.sb1{
+   border: 1px solid #ccc;
+    display: flex; 
+ flex-direction: column;
+align-items: center; 
+justify-content: center;
+ padding: 10px;
+ text-align: center; 
+border-radius: 5px; 
+box-sizing: border-box;
+}
+
+.rn2{
+
+  background-color: white;
+  position: fixed;
+  z-index: 40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.AccBtn {
+    border: none;
+    width: 8rem;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+    background-color: white;
+    color: black;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    height:  1.5rem;
+}
+
+.AccBtn11 {
+    border-radius: 0.3rem;
+    background-color: white;
+    padding: 1rem;
+    width: 8rem;
+    height: 1.5rem;
+}
+
+.AccBtn1 {
+    border-radius: 0.3rem;
+    border: none;
+    width: 8rem;
+    height: 1.5rem;
+    color: Green;
+    background-color: white;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.AccBtn:hover {
+    background: white;
+     color:blue; 
+
+}
+
+.sbp{
+  text-align: left;
+}
+
+/* ----------------------  UPDATE PROFILE ---------------------- */
+
+.Su{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    margin:3rem;
+    
+    }
+    .card {
+      
+        height: auto;
+        background: #F4F6FB;
+        border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+        -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+        -moz-box-shadow: 10px 10px 64px 0px rgba(14, 14, 170, 0.75);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      }
+      
+      .form {
+        padding: 25px;
+      }
+      
+      .card_header {
+        display: flex;
+        align-items: center;
+      }
+      
+      .card svg {
+        color: black;
+        margin-bottom: 20px;
+        margin-right: 5px;
+      }
+      
+      .form_heading {
+        padding-bottom: 20px;
+        font-size: 21px;
+        color:black;
+      }
+      
+      .field {
+        padding-bottom: 10px;
+      }
+      
+      .input {
+        border-radius: 5px;
+        padding: 5px;
+        width: 90%;
+        color: black;
+        border: none;
+        border-bottom: 2px solid rgba(0,0,0, 0.12);
+      }
+      
+      .input:focus-visible {
+        outline:none;
+        border-bottom: 2px solid black;
+      }
+      
+      .input::placeholder {
+        color: black;
+      }
+      
+      .label {
+        color: black;
+        font-size: 14px;
+        display: block;
+        padding-bottom: 4px;
+        text-align: left;
+        padding-left: 0.3rem;
+      }
+      
+      .button {
+        background-color: rgb(197, 236, 255);
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 7px 12px;
+        height: auto;
+        font-weight: 500;
+        color: black;
+        border: none;
+      }
+      
+      .button:hover {
+        background-color:rgb(159, 223, 255);
+        cursor: pointer;
+      }
+    
+    
+      .kd{
+        font-size: 14px;
+        padding: 6px 10px;
+        background-color: rgb(197, 255, 224);
+        border: none;
+        font-weight: 500;
+        text-decoration: none;
+      color:black;
+      }
+    
+      .kd:hover {
+        background-color:rgb(159, 223, 255);
+        cursor: pointer;
+      }
+
+      .addToCart {
+        background-color: #4caf50;
+        color: white;
+        font-weight: 600;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 0.75rem;
+      }
+      
+      .addToCart:hover {
+        background-color: #45a049;
+        color:black;
+      }
+
+
+
+.formrows{
+  display:flex;
+  flex-direction: column;
+  width:50%;
+
+}
+
+.field1{
+ display:flex;
+  gap:3rem;
+}
+
+.field2{
+    margin-left: -3rem;
+}
+
+.formclm{
+  display: flex;
+  flex-direction: row;
+width:100%;
+justify-content: center;
+align-items: center;
+gap:3rem;
+}

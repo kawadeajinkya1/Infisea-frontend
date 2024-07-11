@@ -1,0 +1,46 @@
+.video{
+    position: relative;
+    width: 100%;
+    height: 100vh;  /* Adjust the height as needed */
+    object-fit:fill;
+  
+}
+
+.simulation{
+    height: 100vh;
+    padding: 0;
+    width:100%;
+}
+
+.name{
+    color: red;
+    font-family: "Lato";
+    font-weight: bolder;
+}
+
+.tt{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.text{
+    position: relative;
+  
+z-index: 1;
+  top:-57vh;
+width: 50%;
+  text-align:center
+}
+
+.bh1{
+    position: relative; 
+    font-family: "Lato";
+    font-size: 4.5rem;
+  color: red;
+    left:50%;
+    align-items: center;
+    font-weight: bolder
+}

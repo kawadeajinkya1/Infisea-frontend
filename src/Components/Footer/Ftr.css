@@ -1,0 +1,141 @@
+.footer{
+   
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    box-sizing: border-box;
+    background:#f1faff;
+ box-sizing: border-box;
+ display: block;
+   z-index: 999;
+}
+
+.ftr{
+
+    padding: 3rem;
+    display:flex;
+    justify-content: space-around;
+    background:#f1faff;
+    padding-bottom: 1em;
+
+}
+
+.ftrr{
+
+    padding: 3rem;
+   padding-bottom: 0.1rem;
+    justify-content: space-around;
+    background:#f1faff;
+
+
+}
+
+.ftr1,.ftr2,.ftr3,.ftr4{
+    width: 100%;
+    display: block;
+justify-content: space-around;
+    align-items: left;
+    padding: 2rem;
+   background:  #f1faff;
+}
+/*
+.ftr2{
+    width: 60%;
+}
+.ftr1{
+    width: 90%;
+}*/
+
+.ful{
+    padding-top: 1.5rem;
+    list-style: none;
+    text-align: left;
+
+   
+}
+
+.fli{
+    margin-bottom: 0.3rem;
+    text-align: left;
+    margin-left:-2.5rem ;
+}
+
+.alink{
+    text-decoration: none;
+    color:black;
+}
+
+.fmap{
+    width: auto;
+    height: auto;
+}
+.fp{
+
+    text-align: left;
+
+}
+
+.in{
+    height: 2rem;
+    border:none;
+    position:relative;
+    margin-top: 1rem;
+    border-radius: 10px;
+    width:70%;
+    padding:0.5rem;
+    
+}
+.ine{
+   
+    border:none;
+    position:relative;
+    width:2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+ background: white;
+    padding:0.5rem;
+    
+}
+
+.imgs{
+    width: 1.5rem;
+    height: 1.5rem;
+   margin: 0.3REM;
+}
+
+
+.company {
+    color: #1f2a4b;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.companys {
+    color: #1f2a4b;
+    text-align: center;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;;
+}
+.hrt {
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-left: 0.3rem;
+    margin-right: 0.2rem;
+}
+
+.ssm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ssm2 .oll{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    align-items: center;
+}

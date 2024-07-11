@@ -1,0 +1,149 @@
+.heddd{
+    position: relative;
+padding:4rem;
+display: flex;
+flex-direction: row;
+/*background: linear-gradient(rgba(0, 0, 0, 0.638),rgba(0, 0, 0, 0.704));
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+*/
+background:none;
+
+
+}
+
+.head{
+
+    font-family: "Lato";
+ 
+
+    font-weight:bolder;
+      text-align: center;
+      letter-spacing: 0.1rem;
+      font-size: 3rem;
+  
+  }
+  
+  
+  .heads{
+  
+    font-family: "Lato";
+    /*color:#1f2a4b;*/
+   
+
+    font-weight:bolder;
+      text-align: center;
+      letter-spacing: 0.1rem;
+      font-size: 3rem;
+  
+  }
+  
+  .h1{
+    
+    border: NONE;
+    padding:0.6rem;
+  }
+
+  .p1{
+
+   color:black;
+   font-family: "Lato";
+
+    font-weight:300;
+    text-transform: capitalize;
+      text-align: left;
+
+      font-size: 1rem;
+width:30rem;
+  }
+
+  .b1{
+
+    border: none;
+    width:AUTO;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    color:#1f2a4b;
+    background-color: #fb6007;
+ 
+
+  }
+
+  .be{
+    color:#1f2a4b;
+    text-decoration: none;
+  }
+
+
+  .be:hover{
+    color:blue;
+  }
+
+
+.d{
+    display:flex;
+    flex-direction:row;
+ 
+
+}
+
+.d2{
+
+    padding-left:2rem;
+    position:relative;
+    top:-2rem;
+}
+
+.left1{
+  justify-content: left;
+  padding-left:3rem;
+ width:50%;
+ 
+
+
+}
+
+.right1{
+   justify-content: left;
+   padding-left:8rem;
+  width:50%;
+
+}
+
+
+.i1{
+
+    height:3rem;
+    width:3rem;
+}
+
+.h5
+{
+  font-family: "Fira Sans";
+    font-size: 1rem;
+      color:black;;
+   
+}
+
+.p5
+{
+  font-family: "Fira Sans";
+    font-size: 0.8rem;
+     color:black;
+     margin-top:-1rem;
+}
+
+.hd{
+  font-family: "Fira Sans";
+  justify-content: center;
+    color:#1f2a4b;
+     color:black;
+}
+

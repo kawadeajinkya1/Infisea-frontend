@@ -1,0 +1,31 @@
+.main{
+    box-sizing: border-box;
+    background-image: url(./../../Asset/About_us_banner.webp) ;  /*to right,rgba(0, 0, 0, 0.898),rgba(0, 0, 0, 0.598)),*/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+
+.main .Abtp{
+     background-image: linear-gradient(to right,rgba(0, 0, 0, 0.898),rgba(0, 0, 0, 0.598));  /*to right,rgba(0, 0, 0, 0.898),rgba(0, 0, 0, 0.598)),*/
+    position: relative;
+  left:28%;
+    margin-top:10rem;
+    padding:2rem;
+    text-align: center;
+    text-align: justify;
+    font-size: 1rem;
+    color: white;
+    font-family: "Lato";
+    width: 20rem;
+    height: auto;
+    font-weight: 500;
+    border-radius:20px;
+}

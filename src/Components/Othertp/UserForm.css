@@ -1,0 +1,97 @@
+.uHold {
+    background-color: whitesmoke;
+
+}
+
+.uhd1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.uTxt1 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.uForm {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.uLbl {
+    margin-right: 2rem;
+    color: rgb(78, 78, 78);
+    width: 6rem;
+}
+
+.uHold1 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap:0.5rem;
+}
+
+.btn1 {}
+
+.uSale {
+    background-color: red;
+    border: none;
+    color: whitesmoke;
+    margin-left: 1rem;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 1.4rem;
+}
+
+
+
+.NuSale {
+    border: none;
+    margin-left: 1rem;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 1.4rem;
+    border: 1px solid gray;
+}
+
+
+.selecttag{
+    border: none;
+    margin-left: 1rem;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 1.4rem;
+    border: 1px solid gray;
+    color:red;
+}
+
+.optiontag{
+
+        border: none;
+        margin-left: 1rem;
+        width: 7rem;
+        height: 2.5rem;
+        border-radius: 1.4rem;
+        border: 1px solid gray;
+        text-align: center;
+       
+    
+}
+
+.inputStyle {
+    border: none;
+    margin-left: 1rem;
+    width: 7rem;
+    height: 1.5rem;
+    border-radius: 1.4rem;
+    border: 1px solid gray;
+    padding:0.5rem;
+    text-align: center;
+  
+
+  }

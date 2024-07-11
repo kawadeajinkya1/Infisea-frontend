@@ -1,0 +1,100 @@
+.ln{
+    display:flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top:50%;
+    box-sizing: border-box;
+    margin:3rem;
+    
+    }
+    .card {
+        width: 15rem;
+        height: auto;
+        background: #F4F6FB;
+        border: 1px solid white;
+        box-shadow: 3px 3px 64px 0px rgba(180, 180, 207, 0.75);
+        -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+        -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+      }
+      
+      .form {
+        padding: 25px;
+      }
+      
+      .card_header {
+        display: flex;
+        align-items: center;
+      }
+      
+      .card svg {
+        color: black;
+        margin-bottom: 20px;
+        margin-right: 5px;
+      }
+      
+      .form_heading {
+        padding-bottom: 20px;
+        font-size: 21px;
+        color:black;
+      }
+      
+      .field {
+        padding-bottom: 10px;
+      }
+      
+      .input {
+        border-radius: 5px;
+        background-color: #e9e9f7;
+        padding: 5px;
+        width: 100%;
+        color: black;
+        border: 1px solid #dadaf7
+      }
+      
+      .input:focus-visible {
+        outline: 1px solid #aeaed6;
+      }
+      
+      .input::placeholder {
+        color: black;
+      }
+      
+      label {
+        color: black;
+        font-size: 14px;
+        display: block;
+        padding-bottom: 4px;
+      }
+      
+      .button {
+        background-color: rgb(197, 236, 255);
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 7px 12px;
+        height: auto;
+        font-weight: 500;
+        color: black;
+        border: none;
+      }
+      
+      .button:hover {
+        background-color:rgb(159, 223, 255);
+        cursor: pointer;
+      }
+    
+    
+      .kd{
+        font-size: 14px;
+        padding: 6px 10px;
+        background-color: rgb(197, 255, 224);
+        border: none;
+        font-weight: 500;
+        text-decoration: none;
+      color:black;
+      }
+    
+      .kd:hover {
+        background-color:rgb(159, 223, 255);
+        cursor: pointer;
+      }

@@ -1,0 +1,280 @@
+.cont
+{
+
+  display:flex;
+  width:100%;
+  margin-top:6rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  position: relative;
+}
+
+.fb{
+  
+  position: relative;
+  width:70%;
+  padding:2.5rem;
+  box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+  border-right:1px solid #ccc;
+}
+ 
+.sb{
+  right: 3%;
+margin-top:2rem;
+width:25%;
+position: fixed;
+ display: flex; 
+ flex-direction: column;
+align-items: center; 
+justify-content: center;
+ padding: 10px;
+ text-align: center; 
+border-radius: 5px; 
+box-sizing: border-box;
+  padding-bottom: 1rem;
+
+}
+
+.sb1{
+   border: 1px solid #ccc;
+    display: flex; 
+ flex-direction: column;
+align-items: center; 
+justify-content: center;
+ padding: 10px;
+ text-align: center; 
+border-radius: 5px; 
+box-sizing: border-box;
+}
+
+.rn2{
+
+  background-color: white;
+  position: fixed;
+  z-index: 40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2rem;
+}
+
+
+
+
+.AccBtn {
+    border: none;
+    width: 8rem;
+    height: 1.5rem;
+    border-radius: 0.3rem;
+    background-color: white;
+    color: black;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    height:  1.5rem;
+}
+
+.AccBtn11 {
+    border-radius: 0.3rem;
+    background-color: white;
+    padding: 1rem;
+    width: 8rem;
+    height: 1.5rem;
+}
+
+.AccBtn1 {
+    border-radius: 0.3rem;
+    border: none;
+    width: 8rem;
+    height: 1.5rem;
+    color: Green;
+    background-color: white;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.AccBtn:hover {
+    background: white;
+     color:blue; 
+
+}
+
+.sbp{
+  text-align: left;
+}
+
+  .button {
+        background-color: rgb(197, 236, 255);
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 7px 12px;
+        height: auto;
+        font-weight: 500;
+        color: black;
+        border: none;
+      }
+      
+      .button:hover {
+        background-color:rgb(159, 223, 255);
+        cursor: pointer;
+      }
+
+
+
+
+.orderContainer {
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+
+
+margin-bottom: 1rem;
+margin-top: 1rem;
+
+}
+
+.orderDetails {
+    display:block;
+
+}
+
+.fise,.thirdDiv,.fifthDiv {
+
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.productDetails {
+margin-top:-1rem;
+    display: flex;
+      justify-content: space-around;
+  align-items: center;
+}
+
+.span{
+  font-weight: bold;
+    font-size: 1em;
+  color: #555;
+  
+}
+
+.secondDiv, .thirdDiv,.fifthDiv,.fourthDiv {
+margin-top:-1rem;
+}
+
+.firstDiv, .secondDiv{
+  display:flex;
+  justify-content: start;
+  flex-direction: column;
+  width:100%;
+  padding:1rem;
+}
+
+.firstDiv{
+border-right: 1px solid black;
+}
+
+.hr{
+border: 1px solid black;
+}
+.secondDiv{
+
+  padding-left:2rem}
+
+.fise{
+    justify-content: flex-start;
+}
+.p1{
+  margin-top:-1rem
+}
+
+
+
+    .addToCart {
+        background-color: #ff0000;
+        color: white;
+        font-weight: 600;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 0.75rem;
+      }
+      
+      .addToCart:hover {
+        background-color: #ff4141;
+        color:black;
+      }
+/* ----------------------  For View orders ----------------------
+
+
+
+
+
+         {allorders.map((products) => (
+  <table className={classes.table} key={products.OrderID}>
+    <thead className={classes.thead}>
+      <tr>
+        <th className={classes.th}>Order ID</th>
+        <th className={classes.th}>Product Name</th>
+        <th className={classes.th}>Base Price</th>
+        <th className={classes.th}>Quantity</th>
+        <th className={classes.th}>Price</th>
+        <th className={classes.th}>Total</th>
+        <th className={classes.th}>Status</th>
+        <th className={classes.th}>Name</th>
+        <th className={classes.th}>Mob no</th>
+        <th className={classes.th}>Alternate Mob no</th>
+        <th className={classes.th}>Address</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      {products.ProductNames.split(',').map((name, index) => (
+        <tr key={index}>
+          <td className={classes.td}>{index === 0 ? products.OrderID : ''}</td>
+          <td className={classes.td}>{name}</td>
+          <td className={classes.td}>{products.Fps.split(',')[index]}</td>
+          <td className={classes.td}>{products.Quantities.split(',')[index]}</td>
+          <td className={classes.td}>{products.Exp.split(',')[index]}</td>
+          <td className={classes.td}>{index === 0 ? products.Total : ''}</td>
+          <td className={classes.td}>{index === 0 ? products.status : ''}</td>
+          <td className={classes.td}>{index === 0 ? products.cname : ''}</td>
+           <td className={classes.td}>{index === 0 ? products.mobno : ''}</td>
+           <td className={classes.td}>{index === 0 ? products.amno : ''}</td>
+            <td className={classes.td}>{index === 0 ? products.adl1 : ''}{index === 0 ? products.adl2 : ''}{index === 0 ? products.vtc : ''}{index === 0 ? products.state : ''}{index === 0 ? products.country: ''}{index === 0 ? products.pin : ''}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+))}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+

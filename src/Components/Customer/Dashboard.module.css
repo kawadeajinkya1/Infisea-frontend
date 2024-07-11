@@ -1,0 +1,39 @@
+.buttoms{
+    padding:5rem;
+}
+
+.button {
+    background-color: #ffffff00;
+    color: #fff;
+    color:black;
+    width: auto;
+    height: 2.9em;
+    border: #3654ff 0.2em solid;
+    border-radius: 11px;
+    text-align: center;
+    transition: all 0.6s ease;
+    padding: 0.5REM;
+    margin: 0.2REM;
+  }
+  
+  .button:hover {
+    background-color:white;
+    color: red;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+
+  .addToCart {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.75rem;
+  }
+  
+  .addToCart:hover {
+    background-color: #45a049;
+  }

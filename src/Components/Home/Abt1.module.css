@@ -1,0 +1,94 @@
+
+    .Abt1{
+        font-family: "Lato";
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+    font-weight: 100;
+           font-size: 2rem;
+    color:white;
+    text-align: center;
+
+background-color: rgba(0, 0, 0, 0.983);
+    }
+
+        .Abtp{
+    
+        font-family: "Lato";
+        font-weight: 500;
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+
+
+    }
+    
+    .hed{
+        
+        font-family: "Lato";
+        color:red;
+        font-size: 3rem;
+            font-weight: bolder;
+    }
+
+    .Abtp2{
+
+        color:white;
+           font-family: "Lato";
+        font-weight: bolder;
+        font-size: 2.5rem;
+        color: white;
+        text-align: center;
+
+    }
+
+     .Abtp3{
+
+        color:white;
+           font-family: "Lato";
+        font-weight: bolder;
+        font-size: 1.5rem;
+        color: white;
+        text-align: center;
+
+    }
+
+
+       .Abtp4{
+
+        color:white;
+           font-family:"Metrophobic";        
+           font-weight: bolder;
+        font-size: 2rem;
+        text-align: center;
+
+text-decoration: none;
+    }
+
+.one{
+    display: flex;
+}
+
+
+.orange{
+    color:orange;
+    font-size: 1.5rem;
+        font-family:"Lato";  
+         font-weight: bolder;
+}
+
+.green{
+    color:green;
+    font-size: 1.5rem;
+        font-family:"Lato";  
+         font-weight: bolder;
+}
+
+.white{
+    color:white;
+    font-size: 1.5rem;
+        font-family:"Lato";  
+         font-weight: bolder;
+}

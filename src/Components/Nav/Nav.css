@@ -1,0 +1,53 @@
+.navbar{
+    padding:2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+    width: 100%;
+    box-sizing: border-box;
+    TOP:0;
+ 
+}
+
+.nav{
+
+    border-radius:2rem;
+    border: 2px solid black;
+    height: 2rem;
+    padding: 0.5rem;
+    display:flex;
+    justify-content: space-around;
+}
+
+.no,.nth{
+    width: 100%;
+  
+    display: flex;
+justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+
+.nto{
+    width: 50%;
+
+    display: flex;
+justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+}
+
+.Ni{
+    height: 1rem;
+    width:1rem;
+    position: relative;
+    top:0.15rem;
+}
